@@ -26,10 +26,12 @@ function App() {
 // console.log(`💥 ${photoDetails}`);
   return (
     <div className="App">
-      <h1>NASA Photo of the Day</h1>
-        <AbovePhoto photoDetails={photoDetails} />
+      <AbovePhoto photoDetails={photoDetails}/>
+      <main className="apodFeatured">
         <PhotoArea photoDetails={photoDetails}/>
         <UnderPhoto photoDetails={photoDetails}/>
+      </main>
+
     </div>
   );
 }
