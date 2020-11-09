@@ -36,14 +36,3 @@
     transform: rotate(360deg);
   }
 }
-.photoBox img{
-  border-radius: 15%;
-  border-style: dotted;
-}
-.under-photo{
-  display: flex;
-  justify-content: center ;
-}
-.under-photo p{
-  max-width: 60%;
-}
